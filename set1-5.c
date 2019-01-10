@@ -8,15 +8,15 @@ printf("enter three values of a,b and c");
 scanf("%d%d%d",&a,&b,&c);
 if(a>b&&a>c)
 {
-printf("a is greater");
+printf("%d",a);
 }
 else if(b>a&&b>c)
 {
-printf("b is greater");
+printf("%d",b);
 }
 else
 {
-printf("c is greater");
+printf("%d",c);
 }
 getch();
 }
