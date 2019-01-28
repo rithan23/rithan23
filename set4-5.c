@@ -1,35 +1,22 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-int a[10],temp,n,i,j;
-clrscr();
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int i,j=0,b,k=0;
+char a[0];
+scanf("%s",a);
+for(i=0;a[i]!='\0';i++)
+b=i;
+for(i=0;i<=b;i++)
 {
-scanf("%d",&a[i]);
-}
-for(i=0;i<n;i++)
+if((a[i]>=48)&&(a[i]<=57))
 {
-for(j=i+1;j<n;j++)
-{
-if(a[i]>a[j])
-{
-temp=a[i];
-a[i]=a[j];
-a[j]=temp;
-}
-}
-}
-if(n%2==0)
-{
-n=n/2;
-printf("\n%d",a[n-1]);
+j++;
 }
 else
 {
-n=n/2;
-printf("\n%d",a[n]);
+k++;
 }
-getch();
+}
+printf("%d",j);
+return 0;
 }
