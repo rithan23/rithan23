@@ -6,4 +6,5 @@ int main()
 	sn=(n*(2*a+(n-1)*d))/2;
 	printf("sum is %d",sn);
 	return 0;
+	
 }
