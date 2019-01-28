@@ -19,4 +19,5 @@ max=num[i];
 }
 printf("%d",max);
 getch();
+  
 }
