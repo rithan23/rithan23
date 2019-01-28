@@ -32,5 +32,4 @@ n=n/2;
 printf("\n%d",a[n]);
 }
 getch();
-
 }
