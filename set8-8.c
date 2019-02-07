@@ -3,6 +3,7 @@ int main()
 {
     int num,i;
     scanf("%d",&num);
+    
     if(num%13==0)
     {
         printf("yes");
@@ -12,4 +13,5 @@ int main()
         printf("not");
     }
     return 0;
+    
 }
