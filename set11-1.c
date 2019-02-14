@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     char a[100];
@@ -13,4 +12,5 @@ int main()
         printf("%c",a[i]);
     }
     return 0;
+    
 }
