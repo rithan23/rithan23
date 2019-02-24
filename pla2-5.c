@@ -33,4 +33,5 @@ int main()
     printf("%c",a[p]);
 
     return 0;
+    
 }
