@@ -1,9 +1,9 @@
-
 #include <stdio.h>
 int main()
 {
 int L,R,i;
 scanf("%d %d",&L,&R);
+    
 if((L>=1&&L<=100000)&&(R>=1&&R<=100000))
 {
 
