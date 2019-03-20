@@ -10,6 +10,7 @@ int main()
     for(i=0;i<n;i++)
     {
         if(a[i]==k)
+            
         {
             f=1;
         for(j=i+1;j<n;j++)
